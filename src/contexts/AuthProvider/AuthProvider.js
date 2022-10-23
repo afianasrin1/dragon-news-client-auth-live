@@ -20,7 +20,7 @@ const AuthProvider = ({ children }) => {
 
   const providerLogin = (provider) => {
     setLoading(true);
-    return signInWithPopup(auth, provider);
+    return signInWithPopup(auth, provider); 
   };
   const createUser = (email, password) => {
     setLoading(true);
